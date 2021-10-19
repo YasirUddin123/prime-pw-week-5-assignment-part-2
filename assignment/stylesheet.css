@@ -15,3 +15,11 @@ main {
   /*found the hex value for light gray*/
   background-color: #D3D3D3;
 }
+
+/*this is a relative path because this is navigating from the stylesheet.css file indicated by ../
+If I used the absolute path, I would have to type out the full path like this: background-image: url("/Users/yasiruddin/Desktop/Tier1/Week5_Homework/prime-pw-week-5-assignment-part-2/assignment/record.png");
+this is starting from the root directory.*/
+
+body {
+  background-image: url("../assignment/record.png");
+}
