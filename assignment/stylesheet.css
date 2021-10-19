@@ -1,0 +1,17 @@
+
+/*I could have used a class inside header to change the text, but because
+I used color, that applies to all text inside of the header. I tested it
+and that worked.*/
+header {
+  /*used a dark green background color*/
+  background-color: #006400;
+  /*used cornsilk color for the text*/
+  color: #FFF8DC;
+  /*centered my text*/
+  text-align: center
+}
+
+main {
+  /*found the hex value for light gray*/
+  background-color: #D3D3D3;
+}
