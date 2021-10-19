@@ -14,6 +14,8 @@ header {
 main {
   /*found the hex value for light gray*/
   background-color: #D3D3D3;
+  /* added the padding */
+  padding: 1em;
 }
 
 body {
@@ -24,4 +26,6 @@ body {
   /*cool to learn images can be repeated on horizontal or vertical axes via repeat-x;, repeat;, space;, round;, no-repeat; and space repeat;
   website: https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat#values */
   background-repeat: space repeat;
+   /*added a magin of 0 to the body element */
+  margin: 0;
 }
